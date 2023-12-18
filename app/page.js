@@ -232,7 +232,7 @@ export default function Home() {
       </div>
       <div className="my-10   w-screen flex md:grid md:grid-cols-3 flex-col justify-center items-center max-w-screen  ">
         <SliderFlip />
-        <div className="mt-10">
+        <div className="md:mt-10 mt-20">
           <div className=" flex  flex-col items-center justify-center">
             <p className="text-center text-2xl font-sans text-slate-200 font-bold mb-10  ">
               Timeline de Trabajo
