@@ -9,7 +9,7 @@ export const SliderFlipPage = ({ button, video }) => {
     <div className="m-4 flex justify-around items-center flex-col ">
       <video
         src={video}
-        autoPlay
+
         controls
         muted
         playsInline
