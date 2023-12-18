@@ -12,7 +12,9 @@ import "swiper/css/navigation";
 import { EffectCube, Pagination, Navigation } from "swiper/modules";
 import { SliderFlipPage } from "../SliderFlipCard";
 
+
 export const SliderFlip = () => {
+  
   return (
     <>
       <Swiper
@@ -20,6 +22,7 @@ export const SliderFlip = () => {
         grabCursor={true}
         loop={true}
         pagination={true}
+
         modules={[EffectCube, Pagination, Navigation]}
         className="mySwiper"
       >

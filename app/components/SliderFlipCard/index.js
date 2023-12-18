@@ -3,11 +3,15 @@ import { useRouter } from "next/navigation";
 import React from "react";
 
 export const SliderFlipPage = ({ button, video }) => {
+  const handleVideoClick = (event) => {
+    event.stopPropagation();
+  };
   const { push } = useRouter();
 
   return (
     <div className="m-4 flex justify-around items-center flex-col  max-h-5/6">
       <video
+      onClick={handleVideoClick}
         src={video}
         autoPlay
         controls
