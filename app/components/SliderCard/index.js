@@ -9,7 +9,7 @@ export const SliderCard = ({ video, button }) => {
     <div className="m-4 flex justify-around items-center flex-col max-h-5/6">
       <video
         src={video}
-
+autoPlay
         controls
         muted
         loop

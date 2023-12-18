@@ -5,21 +5,22 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
 import "swiper/css";
-import "swiper/css/effect-flip";
+import 'swiper/css/effect-cube';
+
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-import { EffectFlip, Pagination, Navigation } from "swiper/modules";
+import { EffectCube, Pagination, Navigation } from "swiper/modules";
 import { SliderFlipPage } from "../SliderFlipCard";
 
 export const SliderFlip = () => {
   return (
     <>
       <Swiper
-        effect={"flip"}
+        effect={'cube'}
         grabCursor={true}
         loop={true}
         pagination={true}
-        modules={[EffectFlip, Pagination, Navigation]}
+        modules={[EffectCube, Pagination, Navigation]}
         className="mySwiper"
       >
         <SwiperSlide className="flex jusitfy-center items-center  bg-transparent">
