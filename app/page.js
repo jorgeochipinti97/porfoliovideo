@@ -1,8 +1,8 @@
 'use client'
 import { useEffect, useRef } from "react";
-import { CardComponent } from "./components/Card/page";
-import { SliderFlip } from "./components/SliderFlip/page";
-import { SliderCards } from "./components/SliderCards/page";
+import { CardComponent } from "./components/Card";
+import { SliderFlip } from "./components/SliderFlip";
+import { SliderCards } from "./components/SliderCards";
 
 export default function Home() {
   const containerRef = useRef(null);

@@ -1,5 +1,5 @@
 'use client'
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -9,7 +9,7 @@ import "swiper/css/effect-flip";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { EffectFlip, Pagination, Navigation } from "swiper/modules";
-import { SliderFlipPage } from "../SliderFlipCard/page";
+import { SliderFlipPage } from "../SliderFlipCard";
 
 export const SliderFlip = () => {
   return (

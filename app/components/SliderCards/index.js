@@ -8,7 +8,8 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 import { EffectCards } from "swiper/modules";
 import { useRouter } from "next/navigation";
-import { SliderCard } from "../SliderCard/page";
+import { SliderCard } from "../SliderCard";
+
 
 export const SliderCards = () => {
   const router = useRouter();
