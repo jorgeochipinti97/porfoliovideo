@@ -6,7 +6,7 @@ export const SliderFlipPage = ({ button, video }) => {
   const { push } = useRouter();
 
   return (
-    <div className="m-4 flex justify-around items-center flex-col ">
+    <div className="m-4 flex justify-around items-center flex-col  max-h-5/6">
       <video
         src={video}
 
@@ -14,7 +14,7 @@ export const SliderFlipPage = ({ button, video }) => {
         muted
         playsInline
         loop
-        className="h-2/6 bg-black"
+        className="max-h-2/6 bg-black"
       />
       <button
         class="animated-button mt-5"
