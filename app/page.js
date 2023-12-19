@@ -238,11 +238,11 @@ export default function Home() {
               Timeline de Trabajo
             </p>
             <div className=" w-6/12">
-              <ol class="relative border-s border-gray-200 dark:border-gray-700">
+              <ol class="relative border-s  border-gray-700">
                 <li class="mb-10 ms-6">
-                  <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <span class="absolute flex items-center justify-center w-6 h-6  rounded-full -start-3 ring-8 ring-gray-900 bg-blue-900">
                     <svg
-                      class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      class="w-2.5 h-2.5  text-blue-300"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -251,20 +251,20 @@ export default function Home() {
                       <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                     </svg>
                   </span>
-                  <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                  <h3 class="flex items-center mb-1 text-lg font-semibold text-white">
                     Consulta Inicial
                   </h3>
 
-                  <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">
+                  <p class="mb-4 text-base font-normal text-gray-400">
                     Reunión inicial con el cliente para discutir objetivos y
                     expectativas.
                   </p>
                 </li>
 
                 <li class="ms-6 mb-10">
-                  <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <span class="absolute flex items-center justify-center w-6 h-6 rounded-full -start-3 ring-8 ring-gray-900 bg-blue-900">
                     <svg
-                      class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      class="w-2.5 h-2.5 text-blue-300"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -273,19 +273,19 @@ export default function Home() {
                       <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                     </svg>
                   </span>
-                  <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                  <h3 class="mb-1 text-lg font-semibold text-white">
                     Diseño y Desarrollo
                   </h3>
 
-                  <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <p class="text-base font-normal text-gray-400">
                     Comienzo del diseño y desarrollo del proyecto según los
                     requisitos acordados.
                   </p>
                 </li>
                 <li class="ms-6 mb-10">
-                  <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <span class="absolute flex items-center justify-center w-6 h-6  rounded-full -start-3 ring-8 ring-gray-900 bg-blue-900">
                     <svg
-                      class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      class="w-2.5 h-2.5 text-blue-300"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -294,18 +294,18 @@ export default function Home() {
                       <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                     </svg>
                   </span>
-                  <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                  <h3 class="mb-1 text-lg font-semibold text-white">
                     Ajustes y Mejoras
                   </h3>
 
-                  <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <p class="text-base font-normal text-gray-400">
                     Realización de ajustes basados en el feedback del cliente.
                   </p>
                 </li>
                 <li class="ms-6 mb-10">
-                  <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+                  <span class="absolute flex items-center justify-center w-6 h-6  rounded-full -start-3 ring-8 ring-gray-900 bg-blue-900">
                     <svg
-                      class="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                      class="w-2.5 h-2.5 text-blue-300"
                       aria-hidden="true"
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -314,11 +314,11 @@ export default function Home() {
                       <path d="M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z" />
                     </svg>
                   </span>
-                  <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">
+                  <h3 class="mb-1 text-lg font-semibold text-white">
                     Entrega Final
                   </h3>
 
-                  <p class="text-base font-normal text-gray-500 dark:text-gray-400">
+                  <p class="text-base font-normal text-gray-400">
                     Entrega del producto final
                   </p>
                 </li>
